@@ -1,0 +1,31 @@
+
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 16.66%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#Medsetup {background-color:#0080c0;}
+#Paris {background-color:#00cc44;}
+#Tokyo {background-color:#c6538c;}
+#Oslo {background-color:orange;}
